@@ -1,0 +1,1 @@
+CREATE TABLE `amiibo_cards`.`cards` ( `card_number` TEXT NOT NULL , `name_ger` TEXT NOT NULL , `name_eng` TEXT NOT NULL , `pic_original` TEXT NOT NULL , `pic_inject` TEXT NOT NULL , `series` INT(2) NOT NULL , `owned` BOOLEAN NOT NULL , `wikiurl` TEXT NOT NULL , `count` INT(4) NOT NULL , PRIMARY KEY (`card_number`(3))) ENGINE = InnoDB CHARSET=utf8 COLLATE utf8_general_ci;

@@ -1,0 +1,4 @@
+<Directory /var/www/html/includes>
+Deny from all
+</Directory> 
+
