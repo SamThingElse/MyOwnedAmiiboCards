@@ -25,25 +25,25 @@
         <br>
         <div class="container">
             <h2>1. Serie</h2>
-              <?php include ("./includes/series1_gallery.php"); ?>
+              <?php include ("./include/series1_gallery.php"); ?>
         </div>
         <br>
         <br>
       <div class="container">
             <h2>2. Serie</h2>
-              <?php include ("./includes/series2_gallery.php"); ?>
+              <?php include ("./include/series2_gallery.php"); ?>
         </div>
         <br>
         <br>
         <div class="container">
             <h2>3. Serie</h2>
-              <?php include ("./includes/series3_gallery.php"); ?>
+              <?php include ("./include/series3_gallery.php"); ?>
         </div>
         <br>
         <br>
         <div class="container">
             <h2>4. Serie</h2>
-              <?php include ("./includes/series4_gallery.php"); ?>
+              <?php include ("./include/series4_gallery.php"); ?>
         </div>
     <br>
     <br>

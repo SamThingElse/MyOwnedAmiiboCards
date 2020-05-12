@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="UTF-8" />
         <title>Meine Animal Crossing Amiibo Karten</title>
@@ -32,7 +32,7 @@
                 </tr>
               </thead>
               <tbody>
-                <?php include ("./includes/series1.php"); ?>
+                <?php include ("./include/series1.php"); ?>
               </tbody>
             </table>
         </div>
@@ -47,7 +47,7 @@
                 </tr>
               </thead>
               <tbody>
-                <?php include ("./includes/series2.php"); ?>
+                <?php include ("./include/series2.php"); ?>
               </tbody>
             </table>
         </div>
@@ -62,7 +62,7 @@
                 </tr>
               </thead>
               <tbody>
-                <?php include ("./includes/series3.php"); ?>
+                <?php include ("./include/series3.php"); ?>
               </tbody>
             </table>
         </div>
@@ -77,7 +77,7 @@
                 </tr>
               </thead>
               <tbody>
-                <?php include ("./includes/series4.php"); ?>
+                <?php include ("./include/series4.php"); ?>
               </tbody>
             </table>
         </div>

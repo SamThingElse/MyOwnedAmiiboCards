@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-require './includes/config/sql-config.inc.php';
+require './include/config/sql-config.inc.php';
 
 print_r ($db->connect_error);
 

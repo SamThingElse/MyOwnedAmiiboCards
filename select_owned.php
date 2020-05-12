@@ -32,7 +32,7 @@
                 </tr>
               </thead>
               <tbody>
-              <?php include ("./includes/series1_owned.php"); ?>
+              <?php include ("./include/series1_owned.php"); ?>
               </tbody>
             </table>
         </div>
@@ -47,7 +47,7 @@
                 </tr>
               </thead>
               <tbody>
-              <?php include ("./includes/series2_owned.php"); ?>
+              <?php include ("./include/series2_owned.php"); ?>
               </tbody>
             </table>
         </div>
@@ -62,7 +62,7 @@
                 </tr>
               </thead>
               <tbody>
-              <?php include ("./includes/series3_owned.php"); ?>
+              <?php include ("./include/series3_owned.php"); ?>
               </tbody>
             </table>
         </div>
@@ -77,7 +77,7 @@
                 </tr>
               </thead>
               <tbody>
-              <?php include ("./includes/series4_owned.php"); ?>
+              <?php include ("./include/series4_owned.php"); ?>
               </tbody>
             </table>
         </div>
