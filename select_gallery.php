@@ -47,6 +47,12 @@
         </div>
     <br>
     <br>
+        <div class="container">
+          <h2>Sonderkarten</h2>
+            <?php include ("./include/sonderkarten_gallery.php"); ?>
+        </div>
+    <br>
+    <br>
     <br>
     <br>
     <br>

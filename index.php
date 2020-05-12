@@ -83,6 +83,21 @@
         </div>
         <br>
         <br>
+        <div class="container">
+            <h2>Sonderkarten</h2>
+            <table class="u-full-width">
+              <thead>
+                <tr>
+                  <?php include ("./templates/table_head.php"); ?>
+                </tr>
+              </thead>
+              <tbody>
+                <?php include ("./include/sonderkarten.php"); ?>
+              </tbody>
+            </table>
+        </div>
+        <br>
+        <br>
         <br>
         <br>
         <br>
