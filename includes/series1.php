@@ -1,7 +1,6 @@
 <?php
 error_reporting(0);
-$db = new mysqli('localhost', 'change_me', 'change_me', 'change_me');
-$db->set_charset('utf8');
+require './includes/config/sql-config.inc.php';
 
 print_r ($db->connect_error);
 
@@ -25,6 +24,7 @@ foreach($datensatz as $zeile) {
 
     echo '<td>'. $zeile['card_number'] . '</td>';
     echo '<td>' . $zeile['name_ger'] . '</td>';
+    echo '<td>' . $zeile['count'] . '</td>';
     echo '</tr>';
 }
 

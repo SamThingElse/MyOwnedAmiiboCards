@@ -155,7 +155,7 @@ html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; 
-  background-image: url(/images/background.gif);
+  background-image: url(../../images/background.gif);
   background-color: rgb(59, 122, 56); }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
@@ -374,7 +374,7 @@ pre > code {
 th,
 td {
   padding: 12px 15px;
-  text-align: left;
+  text-align: center;
   font-size: 28px;
   border-bottom: 1px solid #E1E1E1; }
 th:first-child,

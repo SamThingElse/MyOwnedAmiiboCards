@@ -6,7 +6,6 @@
 
         <link rel="stylesheet" href="./lib/skeleton/normalize.css" />
         <link rel="stylesheet" href="./lib/skeleton/skeleton.css" />
-        <link rel="stylesheet" href="./style.css" />
         
     </head>
     <body> 
@@ -21,10 +20,7 @@
         </div>
         <br>
       <div class="buttoncontainer">
-      <a class="button button-primary" href="index.php">Alle anzeigen</a>
-        <a class="button button-primary" href="select_owned.php">In Besitz anzeigen</a>
-        <a class="button button-primary" href="select_missing.php">Fehlende anzeigen</a>
-        <a class="button button-primary" href="select_gallery.php">Gallerie</a>
+        <?php include ("./templates/buttons.php"); ?>
       </div>
         <br>
         <div class="container">
@@ -32,9 +28,7 @@
             <table class="u-full-width">
               <thead>
                 <tr>
-                  <th>Bild</th>
-                  <th>Nummer</th>
-                  <th>Name (DE)</th>
+                  <?php include ("./templates/table_head.php"); ?>
                 </tr>
               </thead>
               <tbody>
@@ -49,9 +43,7 @@
             <table class="u-full-width">
               <thead>
                 <tr>
-                  <th>Bild</th>
-                  <th>Nummer</th>
-                  <th>Name (deutsch)</th>
+                  <?php include ("./templates/table_head.php"); ?>
                 </tr>
               </thead>
               <tbody>
@@ -66,9 +58,7 @@
             <table class="u-full-width">
               <thead>
                 <tr>
-                  <th>Bild</th>
-                  <th>Nummer</th>
-                  <th>Name (deutsch)</th>
+                  <?php include ("./templates/table_head.php"); ?>
                 </tr>
               </thead>
               <tbody>
@@ -83,9 +73,7 @@
             <table class="u-full-width">
               <thead>
                 <tr>
-                  <th>Bild</th>
-                  <th>Nummer</th>
-                  <th>Name (deutsch)</th>
+                  <?php include ("./templates/table_head.php"); ?>
                 </tr>
               </thead>
               <tbody>
